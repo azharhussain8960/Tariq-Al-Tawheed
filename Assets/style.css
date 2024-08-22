@@ -5,7 +5,9 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/92866.jpg);
+    background-image: url(./images/mainbodyimage.jpg);
+
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +31,7 @@
 
 .welcom p{
     text-align: center;
+    color: #175286;
     line-height: 80px;
     font-size: x-large;
     font-weight: bolder;
@@ -48,9 +51,17 @@
     width: 410px;
     height: 90px;
     background-color: aliceblue;
+    /* background-color: rgba(9, 9, 29, 0.399); */
+    color: #175286;
     margin-top: 10px;
     display: flex;
     justify-content:space-between;
+}
+.leftbtns a{
+    text-decoration: none;
+}
+.co:hover .leftbtns a{
+    text-decoration: underline;
 }
 .common_txt{
     text-align: center;
@@ -99,8 +110,10 @@
     right: 20px;
 }
 .logo2{
-    width: 100px;
-    margin-left: 350%;
+    position: absolute;
+    width: 300px;
+    top: 280px;
+    left: 75%;
 }
  h1{
     display: inline-block;
