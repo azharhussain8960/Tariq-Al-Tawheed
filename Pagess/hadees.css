@@ -12,6 +12,8 @@
   background-image: url(../Assets/images/mainbodyimage.jpg);
   background-position: center;
   background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 .common{
   width: 100%;
