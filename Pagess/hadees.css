@@ -2,18 +2,18 @@
     padding: 0;
     margin: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    color: wh;
 }
 .main_container{
     width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(../Assets/images/mainbodyimage.jpg);
+  background-image: url(../Assets/images/44558.jpg);
+  /* background-image: url(https://wallpaperaccess.com/full/44558.jpg); */
   background-position: center;
   background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+
 }
 .common{
   width: 100%;
@@ -28,7 +28,7 @@
 .common2{
     width: 100%;
   height: 100px;
-  background-color:rgba(243, 157, 125, 0.687);
+  background-color:rgba(94, 94, 142, 0.399);
   margin-top: 30px;
   text-align: center;
 color: black;
